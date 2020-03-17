@@ -1,0 +1,80 @@
+header {
+    background-image: url(stressed-business-man-2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: #174795 solid 3px;
+}
+section {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+h1 {
+    padding-top: 130px;
+    margin-bottom: 50px;
+    font-size: 2rem;
+    font-weight: 900;
+    text-shadow: #f8d838 0px 0px 3px;
+    line-height: 1.5em;
+}
+header p {
+    text-shadow: #000 0px 0px 3px;
+    /* border: dashed 1px #ffffff; */
+    border-radius: 3px;
+    margin-top: 80px;
+    padding: 15px 20px;
+    background-color: #174795cc;
+    width: 80%;
+    margin: 0 auto;
+}
+.bg-layer {
+    background-color: #ffffff88;
+    padding-bottom: 30px;
+}
+#cpa-logo {
+    transition: .5s;
+    z-index: 10;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 130px 260px 0 0;
+    border-color: #174795 transparent transparent transparent;
+}
+#cpa-logo:hover {
+    border-color: #f9d938 transparent transparent transparent;
+}
+img.cpa-logo {
+    z-index: 11;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.text-blue {
+    color: #174795;
+}
+.text-yellow {
+    color: #f9d938;
+}
+img.img-blue {
+    transition: .5s;
+    border: #fff solid 10px;
+    box-shadow: #174795 0px 0px 4px;
+}
+img.img-blue:hover {
+    border: #fff solid 10px;
+    box-shadow: #000 0px 0px 4px;
+    filter: grayscale(50%);
+}
+.bg-blue {
+    background-color: #174795;
+    padding: 15px 25px;
+    margin-bottom: 15px;
+}
+.blue-bg {
+    background-color: #174795;
+}
+button.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
